@@ -1,0 +1,69 @@
+{
+  "optimal_k": 3,
+  "confidence": "HIGH",
+  "reasoning": "Both methods agree on optimal k",
+  "elbow_method": {
+    "wcss_values": [
+      605.5803734245566,
+      16061775.462432217,
+      8082652.2191512175,
+      6446853.344319998,
+      5062996.912525138,
+      4413634.012954237,
+      3797064.5290702744,
+      3208945.5481686746,
+      2900158.4835292893,
+      2626000.8504925054
+    ],
+    "improvement_rates": [
+      -2652194.586695881,
+      49.67771627703186,
+      20.238392429595333,
+      21.46561055269091,
+      12.825662562907533,
+      13.969655890685548,
+      15.488780251137923,
+      9.622695680068743,
+      9.4531948717214
+    ],
+    "suggested_k": 10
+  },
+  "silhouette_analysis": {
+    "scores": [
+      0.9237428699285947,
+      0.9294462697187602,
+      0.8657999107397039,
+      0.858798837900352,
+      0.777866040138276,
+      0.7798996111937517,
+      0.7813944918856234,
+      0.724948965170907,
+      0.6343953453469819
+    ],
+    "k_values": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "optimal_k_silhouette": 2,
+    "best_score": 0.9294462697187602
+  },
+  "recommendation": {
+    "optimal_k": 3,
+    "confidence": "HIGH",
+    "reasoning": "Both methods agree on optimal k",
+    "next_steps": [
+      "Apply K-Means clustering with k=3",
+      "Analyze cluster characteristics and player profiles",
+      "Validate clusters with business domain knowledge",
+      "Use clusters for player segmentation and targeting"
+    ]
+  }
+}

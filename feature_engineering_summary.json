@@ -1,0 +1,21 @@
+{
+  "original_features": 23,
+  "new_features_added": 6,
+  "total_features": 29,
+  "new_features": [
+    "TotalWeeklyPlaytime",
+    "TotalWeeklyPlaytimeHours",
+    "AchievementRate",
+    "EngagementEfficiency",
+    "ProgressionRate",
+    "PurchaseIntensity"
+  ],
+  "feature_descriptions": {
+    "TotalWeeklyPlaytime": "Total weekly gaming time in minutes",
+    "TotalWeeklyPlaytimeHours": "Total weekly gaming time in hours",
+    "AchievementRate": "Achievements unlocked per player level",
+    "EngagementEfficiency": "Play time per session",
+    "ProgressionRate": "Level progression per achievement",
+    "PurchaseIntensity": "In-game purchases per session"
+  }
+}

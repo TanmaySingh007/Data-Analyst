@@ -1,0 +1,42 @@
+{
+  "original_shape": [
+    40034,
+    13
+  ],
+  "cleaned_shape": [
+    40034,
+    23
+  ],
+  "scaled_columns": [
+    "Age",
+    "PlayTimeHours",
+    "InGamePurchases",
+    "SessionsPerWeek",
+    "AvgSessionDurationMinutes",
+    "PlayerLevel",
+    "AchievementsUnlocked",
+    "EngagementLevel"
+  ],
+  "encoded_columns": [
+    "Gender_Female",
+    "Gender_Male",
+    "Location_Asia",
+    "Location_Europe",
+    "Location_Other",
+    "Location_USA",
+    "GameGenre_Action",
+    "GameGenre_RPG",
+    "GameGenre_Simulation",
+    "GameGenre_Sports",
+    "GameGenre_Strategy",
+    "GameDifficulty_Easy",
+    "GameDifficulty_Hard",
+    "GameDifficulty_Medium"
+  ],
+  "preprocessing_steps": [
+    "Missing value imputation (median for numerical, mode for categorical)",
+    "One-hot encoding for categorical variables",
+    "StandardScaler for numerical features",
+    "Outlier analysis and documentation"
+  ]
+}

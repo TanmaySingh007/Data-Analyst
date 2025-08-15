@@ -1,0 +1,16 @@
+{
+  "preferred_algorithm": "K-Means",
+  "optimal_k": 3,
+  "cluster_descriptions": {
+    "0": "Casual Players",
+    "1": "Moderate Players",
+    "2": "Hardcore Players"
+  },
+  "sql_table": "clustered_player_data",
+  "total_players": 40034,
+  "features_used": 13,
+  "clustering_metrics": {
+    "silhouette_score": 0.9294462697187602,
+    "calinski_harabasz_score": 40020.71821265389
+  }
+}

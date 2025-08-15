@@ -3,10 +3,10 @@
 *.db
 *.csv
 
-# Images and plots
-*.png
-*.jpg
-*.jpeg
+# Images and plots (keeping key result images)
+# *.png
+# *.jpg
+# *.jpeg
 
 # Logs
 *.log
